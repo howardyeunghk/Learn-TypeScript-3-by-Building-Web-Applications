@@ -7,4 +7,4 @@ function multiply(a, b) {
 multiply(1, 2);
 multiply(2,2);
 multiply(-10,10);
-//multiply('foo', "bar");
+multiply('foo', "bar");
