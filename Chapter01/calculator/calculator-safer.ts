@@ -1,4 +1,4 @@
-function multiply(a: number, b: number) {
+function multiply(a: number, b: number): number {
     const result: number = a * b;
     console.log(`The multiplication of ${a}*${b} equals to ${result}`);
     return result;
@@ -7,4 +7,4 @@ function multiply(a: number, b: number) {
 multiply(1, 2);
 multiply(2,2);
 multiply(-10,10);
-multiply("foo", 'bar');
+//multiply("foo", 'bar');
